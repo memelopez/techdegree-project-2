@@ -8,19 +8,15 @@
 
 body {
     font-family: 'Muli', sans-serif;
-    color: #384047;
+    color: #737679;
     background: #FAFAFA;
+    line-height: 1.5em;
   }
-
-p {
-	font-size: .95em;
-	margin-bottom: 1.8em;
-}
 
 h2,
 h3,
 a {
-	color: #093a58;
+	color: #323536;
 }
 
 a {
@@ -29,4 +25,69 @@ a {
 
 img {
 	max-width: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name a,
+.main-nav a {
+    display: block;
+    text-align: center;
+    padding: 1em 15px;
+}
+
+.main-nav a {
+    background-color:#FFFFFD;
+    margin: 1em;
+}
+
+.navigation {
+    margin-bottom: 4em;
+}
+
+/* ---- Layout Containers ---- */
+
+.container {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.description {
+    /* display: table; */
+    text-align: center;
+    line-height: 1.75em;
+}
+
+.description img {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+.primary, 
+.contact {
+    text-align: center;
+    padding-top: 2em;
+}
+
+.primary {
+    background-color: #FCFFFF;
+}
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
 }
