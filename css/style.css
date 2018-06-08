@@ -137,3 +137,48 @@ strong {
     display: table;
     clear: both;
 }
+
+/**************************
+MEDIA QUERIES
+**************************/
+
+@media (min-width: 768px) {
+    .main-nav li {
+        display: inline-block;
+    }
+    .main-nav {
+        text-align: center;
+    }
+
+    .name {
+        margin-bottom: 0.3em;
+    }
+
+    .main-nav a {
+        background-color: #FAFAFA;
+    }
+
+    .navigation {
+        margin-bottom: 1em;
+    }
+
+    .description p {
+        float: left;
+        width: 60%; 
+    }
+
+    .description img {
+        float: right;
+        width: 40%;
+    }
+
+    .card {
+        max-width: 49%;
+        display: inline-block;
+    }
+
+    .contact-text {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
