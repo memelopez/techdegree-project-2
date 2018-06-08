@@ -33,6 +33,10 @@ ul {
     padding: 0;
 }
 
+strong {
+    font-weight: 900;
+}
+
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -43,45 +47,87 @@ ul {
 .main-nav a {
     display: block;
     text-align: center;
-    padding: 1em 15px;
+    padding: 15px;
 }
 
 .main-nav a {
     background-color:#FFFFFD;
-    margin: 1em;
+    margin: 7.5px 0;
 }
 
 .navigation {
     margin-bottom: 4em;
 }
 
+.main-footer{
+    border-top: #737679 solid 1px;
+    padding: 1.5em 0;
+}
+
+.main-footer .name-footer {
+    float: left;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.main-footer .link-to-top {
+    float: right;
+    text-transform: uppercase;
+}
+
 /* ---- Layout Containers ---- */
 
 .container {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }
 
 .description {
     /* display: table; */
     text-align: center;
     line-height: 1.75em;
-}
-
-.description img {
-    width: 300px;
-    margin: 0 auto;
-    margin-bottom: 1.5em;
+    padding-bottom: 2em;
 }
 
 .primary, 
 .contact {
     text-align: center;
     padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .primary {
     background-color: #FCFFFF;
+}
+
+/* ---- Page Elements ---- */
+
+.description img {
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: .5em;
+}
+
+.description p {
+    padding: 0 1em;
+}
+
+.subtitle {
+    padding-bottom: 1.5em;
+}
+
+.contact .subtitle {
+    padding-bottom: 1em;;
+}
+
+.card-text {
+    padding: 0 1em;
+    padding-bottom: 2em;
+}
+
+.card-title {
+    padding-top: 0.5em;
 }
 
 /* ---- Float clearfix ---- */
