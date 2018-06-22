@@ -76,6 +76,10 @@ strong {
     text-transform: uppercase;
 }
 
+.main-nav-footer {
+    display: none;
+}
+
 /* ---- Layout Containers ---- */
 
 .container {
@@ -175,10 +179,25 @@ MEDIA QUERIES
     .card {
         max-width: 49%;
         display: inline-block;
+        padding: 0 0.25em;
     }
 
     .contact-text {
         max-width: 500px;
         margin: 0 auto;
+    }
+
+    .main-nav-footer {
+        display: table;
+        float: right;
+    }
+
+    .link-to-top {
+        display: none;
+    }
+
+    .main-nav-footer li{
+        display: inline-block;
+        margin: 0 1em;
     }
 }
