@@ -179,7 +179,7 @@ MEDIA QUERIES
     .card {
         max-width: 49%;
         display: inline-block;
-        padding: 0 0.25em;
+        padding: 0 0.125em;
     }
 
     .contact-text {
@@ -200,4 +200,40 @@ MEDIA QUERIES
         display: inline-block;
         margin: 0 1em;
     }
+}
+
+@media (min-width: 1024px){
+    .name, 
+    .card {
+        /* display: inline-block; */
+        float: left;
+    }
+
+    .main-nav {
+        /* display: inline-block; */
+        float: right;
+        padding-top: 1em;
+    }
+
+    .description p {
+        padding: 0 2em;
+    }
+
+    .container{
+        padding: 0 2.5em;
+    }
+
+    .primary{
+        margin: 0 1em;
+        padding-top: 1em;
+    }
+
+    .card {
+        max-width: 33%;
+    }
+
+    .contact {
+        padding: 1em 0;
+    }
+
 }
